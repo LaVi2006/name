@@ -1,0 +1,38 @@
+.container{
+    width: 800px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#cccccc;
+    padding-top: 50%   ;
+    background-image:url('pic.png');
+}
+.opacity{
+    width: 80%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: green;
+    border-radius: 50px ;
+    opacity:0.3;
+    -o-transition: margin-bottom 2s;
+}
+
+.opacity:hover{
+    margin-bottom: 100px;
+}
+.img{
+    width: 100%;
+}
+
+body{
+    animation:mymove 10s infinite;
+
+}
+
+@keyframes mymove
+{
+    0%   {transform:rotate(0deg)}
+
+    100% {transform:rotate(360deg);}
+}
